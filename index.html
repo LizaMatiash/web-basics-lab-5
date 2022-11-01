@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Matiash_E_I_IK-92_V7</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input onchange="validationName(this)" type="text" id="name" placeholder="ПІБ">
+            <div class="help-block"></div>
+            <input onchange="validationVar(this)" type="text" id="var" placeholder="Варіант">
+            <div class="help-block-2"></div>
+            <input onchange="validationMobile(this)" type="text" id="mob" placeholder="Телефон">
+            <div class="help-block-3"></div>
+            <input onchange="validationF(this)" type="text" id="fac" placeholder="Факультет">
+            <div class="help-block-4"></div>
+            <input onchange="validationAddres(this)" type="text" id="addres" placeholder="Адреса">
+            <div class="help-block-5"></div>
+            <div class="sbmt-btn" id="btn"></div>
+        </form>
+    </div>
+
+
+    <div class="container-2">
+        <br><br><br>
+        <input type="color" id="clr">
+        <table>
+            <tr>
+                <td id="1">1</td>
+                <td id="2">2</td>
+                <td id="3">3</td>
+                <td id="4">4</td>
+                <td id="5">5</td>
+                <td id="6" ondblclick="dbClick()" onmouseover="chRandomColor(this)" onmouseout="chDefault(this)" onclick="this.style.backgroundColor = document.getElementById('clr').value">6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td id="13">13</td>
+                <td id="14">14</td>
+                <td id="15">15</td>
+                <td id="16">16</td>
+                <td id="17">17</td>
+                <td id="18">18</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td id="25">25</td>
+                <td id="26">26</td>
+                <td id="27">27</td>
+                <td id="28">28</td>
+                <td id="29">29</td>
+                <td id="30">30</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>32</td>
+                <td>33</td>
+                <td>34</td>
+                <td>35</td>
+                <td>36</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
